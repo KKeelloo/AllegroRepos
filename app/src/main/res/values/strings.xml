@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AllegroRepos</string>
+    <string name="github_oauth_token">Github OAuth token</string>
+    <string name="start_with_token">Start with token</string>
+    <string name="start_without_token">Start without token</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="toast_token">Write token</string>
+    <string name="status_load">Loading data</string>
+    <string name="username">username</string>
+    <string name="toast_username">Write username</string>
+    <string name="forbidden">"Looks like you reached limit of github API requests per hour"</string>
+    <string name="loaded">Fetched necessary</string>
+    <string name="unexpected">Unexpected problem, try later</string>
+    <string name="disappeared">I can\'t find the data</string>
+    <string name="connection_bad">Check internet connection</string>
+    <string name="name">"Repository name: "</string>
+    <string name="description">"Description: "</string>
+    <string name="created_date">"Repository created at: "</string>
+    <string name="size">"Size of repo (Kb): "</string>
+    <string name="stars">"Stars count: "</string>
+    <string name="language">"Main language: "</string>
+    <string name="forks">"Forks count: "</string>
+    <string name="issues">"Open issues count: "</string>
+    <string name="branch">"Default branch: "</string>
+    <string name="archived">"Is archived: "</string>
+    <string name="archived_yes">yes</string>
+    <string name="archived_no">no</string>
+    <string name="no_more_detail">It doesn\'t have more details</string>
+    <string name="no_info">Information not available</string>
+    <string name="authorization_info">Authorization info</string>
+    <string name="click_on_item_to_see_details">Click on item to see details</string>
+    <string name="info_name">Name of counted user</string>
+    <string name="info_title">Title of issue</string>
+</resources>

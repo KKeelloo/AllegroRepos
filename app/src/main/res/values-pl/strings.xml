@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AllegroRepos</string>
+    <string name="github_oauth_token">Github OAuth token</string>
+    <string name="start_with_token">Zacznij z tokenem</string>
+    <string name="start_without_token">Zacznij bez tokenu</string>
+    <string name="next">Następne</string>
+    <string name="previous">Poprzednie</string>
+    <string name="toast_token">Podaj token</string>
+    <string name="status_load">Ładowanie danych</string>
+    <string name="username">username</string>
+    <string name="toast_username">Podaj nazwę użytkownika</string>
+    <string name="forbidden">Wygląda na to że osiągnięto godzinny limit żądań dla github API</string>
+    <string name="loaded">Pobrano wymagane dane</string>
+    <string name="unexpected">Niespodziewany problem spróbuj ponownie później</string>
+    <string name="disappeared">Nie mogę znaleźć danych</string>
+    <string name="connection_bad">Sprawdź połączenie internetowe</string>
+    <string name="name">"Nazwa repozytorium: "</string>
+    <string name="description">"Opis: "</string>
+    <string name="created_date">"Repozytorium stworzono: "</string>
+    <string name="size">"Rozmiar repozytorium (Kb): "</string>
+    <string name="stars">"Liczba gwiazdek: "</string>
+    <string name="language">"Główny język: "</string>
+    <string name="forks">"Liczba rozwidleń: "</string>
+    <string name="issues">"Liczba otwartych problemów: "</string>
+    <string name="branch">"Domyślna gałąź: "</string>
+    <string name="archived">"Tylko do odczytu: "</string>
+    <string name="archived_yes">tak</string>
+    <string name="archived_no">nie</string>
+    <string name="no_more_detail">Wybrana informacja nie ma więcej informacji</string>
+    <string name="no_info">Brak informacji</string>
+    <string name="authorization_info">Dane wymagane do autoryzacji</string>
+    <string name="click_on_item_to_see_details">Kliknij na wiersz by zobaczyć szczegóły</string>
+    <string name="info_name">Nazwa policzonego użytkownika</string>
+    <string name="info_title">Tytuł problemu</string>
+</resources>
