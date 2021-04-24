@@ -34,7 +34,6 @@ class DetailsViewModel: ViewModel() {
                         val mapper = jacksonObjectMapper()
                         val tmp: RepoDetailsHolder = mapper.readValue(jsonString)
                         _details.postValue(tmp)
-                        _statusInfo.postValue(R.string.loaded)
                         return@launch
                     }
                     403 -> {

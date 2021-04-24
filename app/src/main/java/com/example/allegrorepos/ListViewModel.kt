@@ -70,7 +70,6 @@ class ListViewModel(private val username: String?, private val token: String?): 
                             pgCount++
                             con.disconnect()
                         }
-                        _statusInfo.postValue(R.string.loaded)
                         return@launch
                     }
                     403 -> {

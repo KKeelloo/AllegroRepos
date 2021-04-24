@@ -86,7 +86,6 @@ class ChosenDetailsViewModel: ViewModel() {
                         }
                     }
                 }
-                _statusInfo.postValue(R.string.loaded)
                 return@launch
             }catch (e : IOException){
                 _statusInfo.postValue(R.string.connection_bad)

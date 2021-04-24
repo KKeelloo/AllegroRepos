@@ -19,13 +19,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnToken.setOnClickListener {
-            if(binding.textToken.text.isNotBlank() && binding.textLogin.text.isNotBlank()){
+            if(binding.textToken.text?.isNotBlank() == true && binding.textLogin.text?.isNotBlank() == true){
                 intent = Intent(this, ListActivity::class.java)
                 intent.putExtra("username", binding.textLogin.text.toString())
                 intent.putExtra("token", binding.textToken.text.toString())
                 startActivity(intent)
             }
-            if(binding.textLogin.text.isBlank())
+            else if(binding.textLogin.text?.isBlank() == true)
                 Toast.makeText(this, resources.getText(R.string.toast_username), Toast.LENGTH_SHORT).show()
             else
                 Toast.makeText(this, resources.getText(R.string.toast_token), Toast.LENGTH_SHORT).show()

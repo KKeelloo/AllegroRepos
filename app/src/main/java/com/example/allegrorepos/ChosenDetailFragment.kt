@@ -38,6 +38,8 @@ class ChosenDetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.listChosenDetails.adapter = ArrayAdapter<String>(view.context, android.R.layout.simple_list_item_1)
         chosenDetailsViewModel.repo = sharedInfoViewModel.repo!!
+        chosenDetailsViewModel.token = sharedInfoViewModel.token
+        chosenDetailsViewModel.username = sharedInfoViewModel.username
 
         sharedInfoViewModel.chosenDetail.observe(viewLifecycleOwner){
             binding.txtInfo.text = getText(mapOfInfo[it]!!)
