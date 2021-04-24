@@ -10,7 +10,7 @@
     <string name="username">username</string>
     <string name="toast_username">Write username</string>
     <string name="forbidden">"Looks like you reached limit of github API requests per hour"</string>
-    <string name="loaded">Fetched necessary</string>
+    <string name="loaded">Loaded necessary data</string>
     <string name="unexpected">Unexpected problem, try later</string>
     <string name="disappeared">I can\'t find the data</string>
     <string name="connection_bad">Check internet connection</string>
@@ -30,6 +30,6 @@
     <string name="no_info">Information not available</string>
     <string name="authorization_info">Authorization info</string>
     <string name="click_on_item_to_see_details">Click on item to see details</string>
-    <string name="info_name">Name of counted user</string>
+    <string name="info_name">Username</string>
     <string name="info_title">Title of issue</string>
 </resources>
